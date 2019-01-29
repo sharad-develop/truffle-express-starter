@@ -2,4 +2,3 @@ node_modules/
 build/
 .vscode/
 .github/
-package-lock.json
