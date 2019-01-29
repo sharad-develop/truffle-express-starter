@@ -1,7 +1,6 @@
 # Truffle Express Starter Box
 
-The intent of this truffle box is to be used as a starting point for creating rest api interfaces to ethereum contract using node express middleware.<br /> 
-This dapp may or may not have a direct UI element.<br />
+The intent of this truffle box is to be used as a starting point for creating rest api interfaces to ethereum contract using node express middleware.Also demonstrates working of truffle hd wallet provider. The derived dapp may or may not have a direct UI element.<br />
 It provides a basic working example of the MetaCoin contract with express.<br />
 The box uses express routes for clear separation of different routes.<br />
 It comes pre-packaged with truffle hd wallet provider. So you have the option of using a local node or connecting directly to network with something like infura. I have tested this app on rinkeby using truffle hd wallet provider and ganache for local testing.<br />
