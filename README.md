@@ -1,7 +1,6 @@
 # Truffle Express Starter Box
 
-The intent of this truffle box is to be used as a starting point for creating rest api interfaces to ethereum contract using node express middleware.<br /> 
-This dapp may or may not have a direct UI element.<br />
+The intent of this truffle box is to be used as a starting point for creating rest api interfaces to ethereum contract using node express middleware.Also demonstrates working of truffle hd wallet provider. The derived dapp may or may not have a direct UI element.<br />
 It provides a basic working example of the MetaCoin contract with express.<br />
 The box uses express routes for clear separation of different routes.<br />
 It comes pre-packaged with truffle hd wallet provider. So you have the option of using a local node or connecting directly to network with something like infura. I have tested this app on rinkeby using truffle hd wallet provider and ganache for local testing.<br />
@@ -15,11 +14,12 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org/), [
 npm install -g truffle
 
 ```
-Download [Ganache](https://truffleframework.com/ganache)
+Download [Ganache UI](https://truffleframework.com/ganache)
 
 Note: you can use ganache-cli too.
 
 **Build**
+
 1. Download the Box.
 
 ```
@@ -76,5 +76,6 @@ You can by pass swagger if you want and simply use http://localhost:3000
 
 
 **Configuration**
+
 In order to connect to any other node other than local, you will need to make appropriate changes to truffle-config.js and set 'network' environment
 variable or override defaults in web3Uils.
