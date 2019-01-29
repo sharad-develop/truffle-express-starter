@@ -1,0 +1,22 @@
+{
+  "name": "truffle-express-starter",
+  "version": "1.0.0",
+  "description": "Node express starter truffle box ",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharad Gulati",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "swagger-jsdoc": "^3.2.6",
+    "swagger-ui-express": "^4.0.2",
+    "truffle-contract": "^4.0.2",
+    "truffle-hdwallet-provider": "^1.0.2"
+  }
+}
