@@ -14,11 +14,12 @@ In order to run the Truffle box, you will need [Node.js](https://nodejs.org/), [
 npm install -g truffle
 
 ```
-Download [Ganache](https://truffleframework.com/ganache)
+Download [Ganache UI](https://truffleframework.com/ganache)
 
 Note: you can use ganache-cli too.
 
 **Build**
+
 1. Download the Box.
 
 ```
@@ -75,5 +76,6 @@ You can by pass swagger if you want and simply use http://localhost:3000
 
 
 **Configuration**
+
 In order to connect to any other node other than local, you will need to make appropriate changes to truffle-config.js and set 'network' environment
 variable or override defaults in web3Uils.
