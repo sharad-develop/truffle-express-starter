@@ -1,10 +1,10 @@
 # Truffle Express Starter Box
 
-The intent of this truffle box is to be used as a starting point for creating rest api interfaces to ethereum contract using node express middleware. 
-This dapp may or may not have a direct UI element.
-It provides a basic working example of the MetaCoin contract with express.
-The box uses express routes for clear separation of different routes.
-It comes pre-packaged with truffle hd wallet provider. So you have the option of using a local node or connecting directly to network with something like infura. I have tested this app on rinkeby using truffle hd wallet provider and ganache for local testing.
+The intent of this truffle box is to be used as a starting point for creating rest api interfaces to ethereum contract using node express middleware.<br /> 
+This dapp may or may not have a direct UI element.<br />
+It provides a basic working example of the MetaCoin contract with express.<br />
+The box uses express routes for clear separation of different routes.<br />
+It comes pre-packaged with truffle hd wallet provider. So you have the option of using a local node or connecting directly to network with something like infura. I have tested this app on rinkeby using truffle hd wallet provider and ganache for local testing.<br />
 Also, this is preconfigured with swagger, so you can view your api documentation at swagger url and also test.
 
 **Pre-Requisites**
@@ -23,7 +23,7 @@ Note: you can use ganache-cli too.
 1. Download the Box.
 
 ```
-truffle unbox sg
+truffle unbox sharad-develop/truffle-express-starter
 
 ```
 2. Install node modules in your truffle box
@@ -72,9 +72,9 @@ npm start
 http://localhost:3000/docs
 
 ```
-You can by pass swagger if you want and simly use http://localhost:3000
+You can by pass swagger if you want and simply use http://localhost:3000
 
 
-**Configurtion**
+**Configuration**
 In order to connect to any other node other than local, you will need to make appropriate changes to truffle-config.js and set 'network' environment
 variable or override defaults in web3Uils.
